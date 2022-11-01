@@ -2,7 +2,7 @@
 name = "parautomatik"
 version = "0.1.0"
 description = "Automatic Parametrisation of Force Fields"
-authors = ["Thijs Smolders"]
+authors = ["Thijs Smolders <thijs.smolders@kemi.uu.se>"]
 license = "BSD 3-Clause"
 readme = "README.md"
 
