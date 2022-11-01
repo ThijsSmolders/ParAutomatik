@@ -1,0 +1,92 @@
+Geometry = GenFormat {
+13  S
+C    H    Li   O
+1      1     10.557529148905596     10.793882002979005      7.098510206893748
+2      1      9.044645102752961      9.482996107365816      5.947425136207197
+3      1      7.548176037996932      9.752479587810413      6.015160334911612
+4      2      7.113391071526796      9.598255285394576      7.004668401091125
+5      2      7.309534322310359     10.724371443960321      5.543826494671249
+6      2      9.284011355779635      8.674637305859848      6.646997585377070
+7      2      9.248943213430117      9.155330304622908      4.899641283509934
+8      3      6.255134256927145      7.747213377546606      4.232879349818459
+9      3     11.832552388845864     11.035669256837835      8.678171494660360
+10     4      6.882331318631262      8.826363041999038      5.249167162549680
+11     4     11.158729401284786     11.867707951415960      7.253554109390938
+12     4     10.811349399601587      9.881968869629615      7.960911169248813
+13     4      9.756310188822452     10.709929030147261      6.125061044655768
+0.000000000000000      0.000000000000000      0.000000000000000
+20.000000000000000      0.000000000000000      0.000000000000000
+0.000000000000000     20.000000000000000      0.000000000000000
+0.000000000000000      0.000000000000000     13.000000000000000
+}
+Hamiltonian = xTB {
+  Filling = MethfesselPaxton {
+    Temperature = 0.003583407672623195
+    Order = 2
+    IndependentKFilling = No
+  }
+  KPointsAndWeights = SupercellFolding {
+1 0 0 0 1 0 0 0 1 0.0 0.0 0.0
+  }
+  MaxSCCIterations = 1500
+  Method = GFN2-xTB
+  Mixer = Anderson {
+    MixingParameter = 0.03
+    Generations = 4
+    InitMixingParameter = 1.0000000000000000E-002
+    DynMixingParameters = {}
+    DiagonalRescaling = 1.0000000000000000E-002
+  }
+  ReadInitialCharges = Yes
+  SCCTolerance = 3.0E-003
+  ShellResolvedSCC = Yes
+  SCC = Yes
+  EwaldParameter = 0.0000000000000000
+  EwaldTolerance = 1.0000000000000001E-009
+  ConvergentSCCOnly = Yes
+  SpinPolarisation = {}
+  ElectricField = {}
+  Solver = RelativelyRobust {}
+  Charge = 0.0000000000000000
+  Dispersion = {}
+  Solvation = {}
+  Electrostatics = GammaFunctional {}
+  Differentiation = FiniteDiff {
+    Delta = 1.2207031250000000E-004
+  }
+  ForceEvaluation = "Traditional"
+}
+Options = {
+  WriteResultsTag = Yes
+  WriteDetailedOut = Yes
+  WriteAutotestTag = No
+  WriteDetailedXML = No
+  RestartFrequency = 20
+  RandomSeed = 0
+  WriteHS = No
+  WriteRealHS = No
+  MinimiseMemoryUsage = No
+  ShowFoldedCoords = No
+  TimingVerbosity = 1
+  ReadChargesAsText = No
+  WriteChargesAsText = No
+  SkipChargeTest = No
+}
+ParserOptions = {
+  IgnoreUnprocessedNodes = Yes
+  ParserVersion = 11
+  WriteHSDInput = Yes
+  StopAfterParsing = No
+}
+Analysis = {
+  CalculateForces = Yes
+  ProjectStates = {}
+  WriteEigenvectors = No
+  WriteBandOut = Yes
+  MullikenAnalysis = Yes
+  WriteNetCharges = No
+  AtomResolvedEnergies = No
+}
+Reks = None {}
+Driver = {}
+ExcitedState = {}

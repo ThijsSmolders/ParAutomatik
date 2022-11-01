@@ -1,0 +1,39 @@
+Geometry = GenFormat { 
+    <<< "geo_end.gen" 
+} 
+ 
+Hamiltonian = xTB{ 
+   Filling = MethfesselPaxton{ 
+      Temperature = 0.003583407672623195 
+   } 
+   KPointsAndWeights = SupercellFolding {1 0 0 0 1 0 0 0 1 0.0 0.0 0.0} 
+   MaxAngularMomentum = { 
+      C = d 
+      H = s 
+      Li = d 
+      O = d 
+   } 
+   MaxSCCIterations = 1500 
+   Method = GFN2-xTB 
+   Mixer = Anderson{ 
+      MixingParameter = 0.03 
+   } 
+   ReadInitialCharges = Yes 
+   SCCTolerance = 3.0E-003 
+   SlaterKosterFiles = Type2FileNames{ 
+      Prefix = /Users/tjams20/Documents/repos/ParAutomatik/pgm/Jupyter_notebooks/SKF/ 
+      Separator = "-" 
+      Suffix = ".skf" 
+      } 
+   } 
+Options { 
+   WriteResultsTag = Yes 
+   forces = True 
+   results = True 
+} 
+ParserOptions { 
+   IgnoreUnprocessedNodes = Yes  
+} 
+Analysis { 
+   CalculateForces = Yes  
+} 

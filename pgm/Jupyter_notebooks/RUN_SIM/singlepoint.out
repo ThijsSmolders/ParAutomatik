@@ -1,0 +1,118 @@
+|===============================================================================
+|
+|  DFTB+ release 22.1
+|
+|  Copyright (C) 2006 - 2022  DFTB+ developers group
+|
+|===============================================================================
+|
+|  When publishing results obtained with DFTB+, please cite the following
+|  reference:
+|
+|  * DFTB+, a software package for efficient approximate density functional
+|    theory based atomistic simulations, J. Chem. Phys. 152, 124101 (2020).
+|    [doi: 10.1063/1.5143190]
+|
+|  You should also cite additional publications crediting the parametrization
+|  data you use. Please consult the documentation of the SK-files for the
+|  references.
+|
+|===============================================================================
+
+Reading input file 'dftb_in.hsd'
+Parser version: 11
+
+--------------------------------------------------------------------------------
+WARNING!
+-> The following 4 node(s) have been ignored by the parser:
+(1)
+Path: dftbplusinput/Hamiltonian/xTB/MaxAngularMomentum
+Line: 10-15 (File: dftb_in.hsd)
+(2)
+Path: dftbplusinput/Hamiltonian/xTB/SlaterKosterFiles
+Line: 23-27 (File: dftb_in.hsd)
+(3)
+Path: dftbplusinput/Options/forces
+Line: 31-31 (File: dftb_in.hsd)
+(4)
+Path: dftbplusinput/Options/results
+Line: 32-32 (File: dftb_in.hsd)
+
+
+
+Processed input in HSD format written to 'dftb_pin.hsd'
+
+Starting initialization...
+--------------------------------------------------------------------------------
+WARNING!
+-> Dipole printed for extended system : value printed is not well defined
+OpenMP threads:              8
+Chosen random seed:          1858182220
+Mode:                        Static calculation
+Self consistent charges:     Yes
+SCC-tolerance:                 0.300000E-02
+Max. scc iterations:                   1500
+Shell resolved Hubbard:      Yes
+Spin polarisation:           No
+Nr. of up electrons:            21.000000
+Nr. of down electrons:          21.000000
+Periodic boundaries:         Yes
+Electronic solver:           Relatively robust
+Mixer:                       Anderson mixer
+Mixing parameter:                  0.030000
+Maximal SCC-cycles:                    1500
+Nr. of chrg. vectors to mix:              4
+tblite library version:      0.2.1
+-> parametrization:          GFN2-xTB
+-> repulsion:                Yes
+-> dispersion:               Yes
+-> halogen bonding:          No
+-> electrostatics:           Yes
+   -> isotropic:             Yes
+   -> anisotropic:           Yes
+   -> third-order:           Yes
+Electronic temperature:              0.358341E-02 H      0.975095E-01 eV
+Initial charges:             Read in from 'charges'
+Included shells:             C:  s, p
+                             H:  s
+                            Li:  s, p
+                             O:  s, p
+K-points and weights:           1:  0.000000  0.000000  0.000000     1.000000
+
+K-points in absolute space:     1:  0.000000  0.000000  0.000000
+
+Extra options:
+                             Mulliken analysis
+                             Force calculation
+Force type                   original
+
+--------------------------------------------------------------------------------
+
+***  Geometry step: 0
+
+ iSCC Total electronic   Diff electronic      SCC error    
+    1    0.00000000E+00    0.00000000E+00    0.11466371E-01
+    2   -0.25388351E+02   -0.25388351E+02    0.11334473E-01
+    3   -0.25388351E+02   -0.25550092E-06    0.41613942E-02
+    4   -0.25388349E+02    0.14214817E-05    0.40677011E-02
+    5   -0.25388350E+02   -0.20807031E-06    0.89496947E-03
+>> Charges saved for restart in charges.bin
+
+Total Energy:                      -25.3883552429 H         -690.8523 eV
+Extrapolated to 0K:                -25.3883552429 H         -690.8523 eV
+Total Mermin free energy:          -25.3883552429 H         -690.8523 eV
+Force related energy:              -25.3883552429 H         -690.8523 eV
+
+Volume:                              0.350913E+05 au^3   0.520000E+04 A^3
+Pressure:                            0.161095E-05 au     0.473957E+08 Pa
+
+--------------------------------------------------------------------------------
+DFTB+ running times                          cpu [s]             wall clock [s]
+--------------------------------------------------------------------------------
+Pre-SCC initialisation                 +       0.03 ( 14.4%)       0.00 ( 13.2%)
+SCC                                    +       0.12 ( 53.0%)       0.02 ( 50.0%)
+Post-SCC processing                    +       0.07 ( 29.5%)       0.01 ( 28.9%)
+--------------------------------------------------------------------------------
+Missing                                +       0.01 (  3.1%)       0.00 (  7.9%)
+Total                                  =       0.23 (100.0%)       0.04 (100.0%)
+--------------------------------------------------------------------------------

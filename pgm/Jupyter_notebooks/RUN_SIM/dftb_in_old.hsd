@@ -1,0 +1,28 @@
+Geometry = GenFormat { 
+    <<< "geo_end.gen" 
+} 
+ 
+Hamiltonian = xTB{ 
+   Filling = MethfesselPaxton{ 
+      Temperature = 0.003583407672623195 
+   } 
+   KPointsAndWeights = SupercellFolding {1 0 0 0 1 0 0 0 1 0.0 0.0 0.0} 
+   MaxSCCIterations = 1500 
+   Method = GFN2-xTB 
+   Mixer = Anderson{ 
+      MixingParameter = 0.03 
+   } 
+   ReadInitialCharges = Yes 
+   SCCTolerance = 3.0E-003 
+   forces = True 
+   results = True 
+} 
+ParserOptions { 
+   IgnoreUnprocessedNodes = Yes  
+} 
+Analysis { 
+   CalculateForces = Yes  
+} 
+Options { 
+   WriteResultsTag = Yes  
+} 
