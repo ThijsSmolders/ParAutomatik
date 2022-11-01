@@ -77,7 +77,7 @@ jobs:
 
       - name: Python Semantic Release
         run: pip install poetry=1.1.15
-        uses: relekang/python-semantic-release@master
+      - uses: relekang/python-semantic-release@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # repository_username: __token__
