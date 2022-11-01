@@ -14,6 +14,10 @@ pytest = ">=7.2.0"
 pytest-cov = ">=4.0.0"
 python-semantic-release = ">=7.32.2"
 
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
 [tool.semantic_release]
 version_variable = "pyproject.toml:version"             # version location
 branch = "main"                                         # branch to make releases of
@@ -24,7 +28,3 @@ upload_to_release = true                                # auto-create GitHub rel
 upload_to_pypi = false                                  # don't auto-upload to PyPI
 remove_dist = false                                     # don't remove dists
 patch_without_tag = true                                # patch release by default
-
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
