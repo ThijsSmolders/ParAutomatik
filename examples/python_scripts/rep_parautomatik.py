@@ -15,15 +15,22 @@ import json
 
 def pair_dist(atoms, R_c, ch1, ch2):
     from ase.calculators.neighborlist import NeighborList
-    ''' This function returns pairwise distances between two types of atoms within a certain cuttoff
-    Args:
-        R_c (float): Cut off distance(6 Å)
-        ch1 (str): Atom species 1
-        ch2 (str): Atoms species 2
+    """
+    This function returns pairwise distances between two types of atoms within a certain cuttoff
+    
+    Input
+    -----
+        R_c: float 
+            Cut off distance(6 Å)
+        ch1: str
+            Atom species 1
+        ch2: str 
+            Atoms species 2
 
-    Returns:
+    Returns
+    -------
         A list of distances in bohr
-    '''
+    """
     
 
     if ch1 == ch2:
@@ -56,10 +63,10 @@ def generate_ccsdata(DFT_DB, DFTB_DB, R_c=5.0):
     
     Input
     -----
-        args(list): 
+        args: list 
             list of filenames
-        R_c (float, optional): 
-            Distance cut-off. Defaults to 5.0 Å
+        R_c: float 
+            Distance cut-off. Optional, defaults to 5.0 Å.
     '''
     species = []
     counter=0
