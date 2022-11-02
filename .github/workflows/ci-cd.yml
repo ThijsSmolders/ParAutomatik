@@ -75,11 +75,14 @@ jobs:
       - name: Install package
         run: poetry install
 
-      - name: Python Semantic Release
-        run: pip install poetry==1.1.15
-      - uses: relekang/python-semantic-release@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Python Semantic Release with Poetry
+        uses: bjoluc/semantic-release-config-poetry@v2
+
+      # - name: Python Semantic Release
+      #   run: pip install poetry==1.1.15
+      # - uses: relekang/python-semantic-release@master
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
           # repository_username: __token__
           # repository_password: ${{ secrets.PYPI_TOKEN }}
       
