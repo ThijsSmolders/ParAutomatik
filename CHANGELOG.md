@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.0.14 (2022-11-02)
+### Documentation
+* **examples/python_scripts/rep_parautomatik.py:** Fixed typo / check CHANGELOG ([`9315c57`](https://github.com/ThijsSmolders/ParAutomatik/commit/9315c57b98a78fc7e89dd5705fb47cdb2d57ef48))
+
 ## v0.0.13 (2022-11-02)
 ### Documentation
 * **examples/python_scripts/rep_parautomatik.py:** Fixed typo / check CHANGELOG ([`af9be3a`](https://github.com/ThijsSmolders/ParAutomatik/commit/af9be3a6e67b4725e62c2b97deccfee26a45c0fe))
