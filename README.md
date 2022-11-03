@@ -168,7 +168,25 @@ Prerequirements:
    cd $PARAUTOMATIK/pgm
    ```   
    </li> 
+
+   <li> Install GNU autotools (MacOS)
+   ```
+   brew install autoconf
+   brew install automake
+   autoreconf -i
+   ```
+   </li>
+
+   <li> Install libxc
    
+   ```
+   git clone git@gitlab.com:libxc/libxc.git
+   cd libxc
+
+   ```
+
+   </li>
+
    <li> install the skprogs software from the skkprogs git repository
    
    ```bash
@@ -181,6 +199,7 @@ Prerequirements:
    pip install . 
    export PATH=$PARAUTOMATIK/pgm/skprogs/opt/bin:${PATH}
    cd $PARAUTOMATIK/pgm
+   TEST TEST
    ```
    
    </li>
