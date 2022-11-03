@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "parautomatik"
-version = "0.0.14"
+version = "0.0.15"
 description = "Automatic Parametrisation of Force Fields"
 authors = ["Thijs Smolders <thijs.smolders@kemi.uu.se>"]
 license = "BSD 3-Clause"

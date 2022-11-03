@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v0.0.15 (2022-11-03)
+### Documentation
+* **README.md:** Added TEST TEST ([`f906626`](https://github.com/ThijsSmolders/ParAutomatik/commit/f906626f3578052a3723fe19f7f9a391edb29039))
+* **README.MD:** Addedtests to README ([`b134958`](https://github.com/ThijsSmolders/ParAutomatik/commit/b134958440920391f3873943267c52bb3f045aa9))
+* **examples/python_scripts/rep_parautomatik.py:** Numpydoc docstring formatting ([`bf64621`](https://github.com/ThijsSmolders/ParAutomatik/commit/bf64621f248559188f90e916df5062b65456cca9))
+
 ## v0.0.14 (2022-11-02)
 ### Documentation
 * **examples/python_scripts/rep_parautomatik.py:** Fixed typo / check CHANGELOG ([`9315c57`](https://github.com/ThijsSmolders/ParAutomatik/commit/9315c57b98a78fc7e89dd5705fb47cdb2d57ef48))
