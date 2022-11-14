@@ -65,8 +65,8 @@ def generate_ccsdata(DFT_DB, DFTB_DB, R_c=5.0):
     -----
         args: list 
             list of filenames
-        R_c: float 
-            Distance cut-off. Optional, defaults to 5.0 Å.
+        R_c: float, optional
+            Distance cut-off. Defaults to 5.0 Å.
     '''
     species = []
     counter=0
