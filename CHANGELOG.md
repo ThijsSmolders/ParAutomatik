@@ -2,6 +2,9 @@
 
 <!--next-version-placeholder-->
 
+## v0.0.16 (2022-11-14)
+
+
 ## v0.0.15 (2022-11-03)
 ### Documentation
 * **README.md:** Added TEST TEST ([`f906626`](https://github.com/ThijsSmolders/ParAutomatik/commit/f906626f3578052a3723fe19f7f9a391edb29039))
