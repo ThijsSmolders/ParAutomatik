@@ -2,6 +2,14 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.0 (2022-11-18)
+### Feature
+* Adding necessary source code to run build_db and export_sktable ([`a603e15`](https://github.com/ThijsSmolders/ParAutomatik/commit/a603e1547821f870d523c2bd9f90420d21789a53))
+* Adding build_db and export_sktable from CCS code ([`72bc277`](https://github.com/ThijsSmolders/ParAutomatik/commit/72bc277f2e7f32cf5adbbc2b58b397e669599e0c))
+
+### Documentation
+* Manually update version number ([`9504a18`](https://github.com/ThijsSmolders/ParAutomatik/commit/9504a18004ef7751cbbc226f3dcbe471a65540b3))
+
 ## v0.0.16 (2022-11-14)
 
 
