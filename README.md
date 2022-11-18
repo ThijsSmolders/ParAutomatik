@@ -19,7 +19,7 @@
 
 - *App title:* ParAutomatik
 - *Programming Language:* Python
-- *External routines/libraries:* ASE, DFTB+, skprogs, CCS, PiNN
+- *External routines/libraries:* ASE, DFTB+, skprogs, CCS, PiNN, fortnet
 - *Nature of problem:* Theoretical studies of redox reactions generally require the use of quantum chemical methods. These are, however, computationally expensive. Semi-empirical quantum methods are at least two orders of magnitude faster, but often display badpoor transferability, and the generation of new models is often very time-consuming.   
 - *Solution method:* ParAutomatik is an automatic workflow in the form of a set of weakly connected Jupyter notebooks. The output is a machine-learning enhanced self-consistent charge density-functional based tight-binding (SCC-DFTB) model. 
 
