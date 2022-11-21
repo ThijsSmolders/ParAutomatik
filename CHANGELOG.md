@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.1 (2022-11-21)
+### Fix
+* **build_db.py:** Fixing typos and completing close statements ([`5b918a8`](https://github.com/ThijsSmolders/ParAutomatik/commit/5b918a80d17b248cbd3161d6c60551b2e7d5b7cc))
+
+### Documentation
+* **README:** Added badges ([`c9b7eb3`](https://github.com/ThijsSmolders/ParAutomatik/commit/c9b7eb379e63995d04ee6895243fc6a9b8fa11a8))
+
 ## v0.1.0 (2022-11-18)
 ### Feature
 * Adding necessary source code to run build_db and export_sktable ([`a603e15`](https://github.com/ThijsSmolders/ParAutomatik/commit/a603e1547821f870d523c2bd9f90420d21789a53))
