@@ -24,7 +24,7 @@ def ccs_build_db(
 
     if os.path.isfile(DFT_DB):
         print(
-            "DFT data-base allready exists. Please delete the file or use another file name."
+            "DFT data-base already exists. Please delete the file or use another file name."
         )
         exit()
     DFT_DB = db.connect(DFT_DB)
@@ -32,7 +32,7 @@ def ccs_build_db(
     if mode == "DFTB":
         if os.path.isfile(DFTB_DB):
             print(
-                "DFTB data-base allready exists. Please delete the file or use another file name."
+                "DFTB data-base already exists. Please delete the file or use another file name."
             )
             exit()
         DFTB_DB = db.connect(DFTB_DB)
@@ -62,7 +62,7 @@ def ccs_build_db(
             try:
                 f2 = open(DFT_FOLDER, "r")
                 outcar = f2.read()
-                f2.close
+                f2.close()
             except:
                 print("Only implemeted for VASP OUTCAR-files.")
 
@@ -108,7 +108,7 @@ def ccs_build_db(
 
                 if not next_line:
                     break
-            f2.close
+            f2.close()
 
             # READ DFTB FORCES
             Natoms = structure_DFTB.get_global_number_of_atoms()
@@ -130,7 +130,7 @@ def ccs_build_db(
 
                 if not next_line:
                     break
-            f2.close
+            f2.close()
 
             calculator = SinglePointCalculator(
                 structure_DFTB, energy=EDFTB, free_energy=EDFTB, forces=DFTB_forces
