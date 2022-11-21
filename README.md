@@ -1,4 +1,13 @@
 # **ParAutomatik**
+
+[![Latest Release](https://img.shields.io/github/v/release/teoroo-cmc/parautomatik?display_name=tag&color=brightgreen&sort=semver)](https://github.com/Teoroo-CMC/ParAutomatik/releases/latest)
+[![License](https://img.shields.io/github/license/teoroo-cmc/ParAutomatik)](https://opensource.org/licenses/LGPL-3.0)
+[![Build](https://img.shields.io/github/workflow/status/teoroo-cmc/ParAutomatik/ci-cd)](https://github.com/Teoroo-CMC/ParAutomatik/actions)
+
+<!--- Suggested badges
+[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Naereen/badges) 
+[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.cpc.2020.107602-blue)](https://doi.org/10.1016/j.cpc.2020.107602)
+--->
 ## **Table of Contents**
 - [**ParAutomatik**](#parautomatik)
   - [**Table of Contents**](#table-of-contents)
