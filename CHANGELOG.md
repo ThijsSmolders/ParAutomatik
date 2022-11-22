@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.3 (2022-11-22)
+### Documentation
+* **README:** Fixed typo and added fortnet to References and conda install list ([`9cba77e`](https://github.com/ThijsSmolders/ParAutomatik/commit/9cba77e2c3bdd64bc996a81100cfb3fe0c61e60a))
+
 ## v0.1.2 (2022-11-22)
 ### Documentation
 * **README:** Updated README file ([`e235d50`](https://github.com/ThijsSmolders/ParAutomatik/commit/e235d50d705f37623cfd384f4249547ef34b982c))
