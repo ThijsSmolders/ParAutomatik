@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.2 (2022-11-22)
+### Documentation
+* **README:** Updated README file ([`e235d50`](https://github.com/ThijsSmolders/ParAutomatik/commit/e235d50d705f37623cfd384f4249547ef34b982c))
+
 ## v0.1.1 (2022-11-21)
 ### Fix
 * **build_db.py:** Fixing typos and completing close statements ([`5b918a8`](https://github.com/ThijsSmolders/ParAutomatik/commit/5b918a80d17b248cbd3161d6c60551b2e7d5b7cc))
