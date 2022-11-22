@@ -117,6 +117,7 @@ In the current work, we provide an easy and automatized way to generate a machin
    <li> https://github.com/dftbplus/skprogs; https://dftbplus.org </li>
    <li> A. A. K. Krishna, E. Wadbro, C. Köhler, P. D. Mitev, P. Broqvist, J. Kullgren, Computer Physics Communications 2021, 258, 107602; https://doi.org/10.1016/j.cpc.2020.107602;  https://github.com/Teoroo-CMC/CCS </li>
    <li> Y. Shao, M. Hellström, P. D. Mitev, L. Knijff, and C. Zhang, J. Chem. Inf. Model. 2020, 60, 1184-1193; https://doi.org/10.1021/acs.jcim.9b00994;  https://github.com/Teoroo-CMC/PiNN </li>
+   <li> T. van der Heide, J. Kullgren, P. Broqvist, V. Bacic, T. Frauenheim and B. Aradi, Computer Physics Communications 2022, (in press); https://doi.org/10.1016/j.cpc.2020.107602; https://github.com/vanderhe/fortnet </li>
 </ol>
 
 
@@ -209,7 +210,7 @@ Prerequirements:
 
    </li>
 
-   <li> install the skprogs software from the skkprogs git repository (v0.1 is used and tested here)
+   <li> install the skprogs software from the skprogs git repository (v0.1 is used and tested here)
    
    ```bash
    git clone https://github.com/dftbplus/skprogs.git skprogs-0.1
