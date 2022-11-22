@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.4 (2022-11-22)
+### Documentation
+* **README:** Added fortnet to prereqs ([`9391963`](https://github.com/ThijsSmolders/ParAutomatik/commit/93919638152eeafbe54cec4cc8cd38c106e5e012))
+
 ## v0.1.3 (2022-11-22)
 ### Documentation
 * **README:** Fixed typo and added fortnet to References and conda install list ([`9cba77e`](https://github.com/ThijsSmolders/ParAutomatik/commit/9cba77e2c3bdd64bc996a81100cfb3fe0c61e60a))
