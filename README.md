@@ -1,7 +1,7 @@
 # **ParAutomatik**
 
 [![Latest Release](https://img.shields.io/github/v/release/teoroo-cmc/parautomatik?display_name=tag&color=brightgreen&sort=semver)](https://github.com/Teoroo-CMC/ParAutomatik/releases/latest)
-[![License](https://img.shields.io/github/license/teoroo-cmc/ParAutomatik)](https://opensource.org/licenses/LGPL-3.0)
+[![License](https://img.shields.io/github/license/teoroo-cmc/ParAutomatik)](https://opensource.org/licenses/BSD-3-Clause)
 [![Build](https://img.shields.io/github/workflow/status/teoroo-cmc/ParAutomatik/ci-cd)](https://github.com/Teoroo-CMC/ParAutomatik/actions)
 
 <!--- Suggested badges
@@ -22,6 +22,7 @@
 - [**Installation**](#installation)
   - [**HowTo**](#howto)
 - [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
 # **Background** 
 ### **Summary**
@@ -157,7 +158,7 @@ Prerequirements:
    <li> Install neccesarry conda packages:
    
    ```bash
-   conda install -c conda-forge ase dftbplus gfortran jupyterlab pandas cvxopt seaborn tqdm cmake libxc sympy scikit-learn plotly
+   conda install -c conda-forge ase dftbplus gfortran jupyterlab pandas cvxopt seaborn tqdm cmake libxc sympy scikit-learn plotly fortnet
    ```
    
    Check your pip version; which -a pip 
@@ -165,7 +166,7 @@ Prerequirements:
    <li> git clone <parautomatik>
    
    ```bash
-   git clone https://github.com/peterbmob/parautomatik.git
+   git clone https://github.com/Teoroo-CMC/parautomatik.git
    export PARAUTOMATIK=$PWD/parautomatik/ 
    ```  
    
@@ -178,29 +179,55 @@ Prerequirements:
    ```   
    </li> 
 
-   <li> Install GNU autotools (MacOS)
+   <li> Install fortran and C compilers (you can try your own, but the following have been used successfully to compile both libxc and skprogs on both MacOS Monterey (12.6.1) and Linux distributions)
+
+   [Intel oneAPI toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/overview.html#gs.jf3hz1)
    ```
-   brew install autoconf
-   brew install automake
-   autoreconf -i
+   source /home/user/intel/oneapi/setvars.sh --force (or check where oneapi is installed, e.g. using which ifort)
    ```
+
    </li>
 
-   <li> Install libxc
+   </li>
+
+   <li> Install libxc (unless stated otherwise on the skprogs gitlab page, v5.X.X is recommended. Here we use v5.2.3)
    
    ```
-   git clone git@gitlab.com:libxc/libxc.git
-   cd libxc
+   git clone git@gitlab.com:libxc/libxc.git libxc-5.2.3
+   cd libxc-5.2.3
+   git checkout 5.2.3
+   ```
+   ```
+   FC=ifort CC=icc cmake -H. -B _build -DENABLE_FORTRAN=True -DCMAKE_INSTALL_PREFIX=_install
+   ```
 
    ```
+   cd _build
+   make
+   make install
+   ```   
 
    </li>
 
-   <li> install the skprogs software from the skkprogs git repository
+   <li> install the skprogs software from the skkprogs git repository (v0.1 is used and tested here)
    
    ```bash
-   git clone https://github.com/dftbplus/skprogs
-   cd skprogs
+   git clone https://github.com/dftbplus/skprogs.git skprogs-0.1
+   cd skprogs-0.1
+   git checkout 0.1
+   ```
+
+   ```
+   CMAKE_PREFIX_PATH=../libxc-5.2.3/_install/ FC=ifort CC=icc cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=_install -B _build
+   ```
+
+   ```
+   cd _build
+   make
+   make install
+   ```
+
+   <!---
    FC=gfortran cmake -DCMAKE_INSTALL_PREFIX=$PARAUTOMATIK/pgm/skprogs/opt/ -DCMAKE_Fortran_FLAGS=-fopenmp -B _build 
    cmake --build _build -- -j 
    cmake --install _build 
@@ -208,9 +235,18 @@ Prerequirements:
    pip install . 
    export PATH=$PARAUTOMATIK/pgm/skprogs/opt/bin:${PATH}
    cd $PARAUTOMATIK/pgm
-   TEST TEST
    ```
+   --->
    
+   </li>
+
+   <li> Install sktools
+
+   ```
+   cd skprogs-0.1
+   pip install --upgrade sktools
+   ```
+
    </li>
    
    <li> get the latest CCS software from the CCS git repository
@@ -242,3 +278,6 @@ Paths are hard coded at the moment, so search and replace paths in the jupyter n
 # Contact
 - Peter Broqvist, Department of Chemistry - Ångström Laboratory, Uppsala Universtiy peter.broqvist@kemi.uu.se
 - Jolla Kullgren, Department of Chemistry - Ångström Laboratory, Uppsala Universtiy jolla.kullgren@kemi.uu.se
+
+# Acknowledgements
+Many thanks to @vanderhe for instructions on how to install libxc and skprogs.
