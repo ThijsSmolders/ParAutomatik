@@ -134,6 +134,7 @@ Prerequirements:
 - Tensorflow (ver>1.15)
 - libXC (https://github.com/ElectronicStructureLibrary/libxc.git)
 - autogen autoconf libtool 
+- fortnet (https://github.com/vanderhe/fortnet)
 
 
 <ol>
