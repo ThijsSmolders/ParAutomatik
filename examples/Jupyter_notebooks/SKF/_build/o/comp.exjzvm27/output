@@ -1,0 +1,216 @@
+Enter nuclear charge, maximal angular momentum (s=0), max. SCF, ZORA
+Enter XC functional, 0=HF, 1=X-Alpha, 2=PW-LDA, 3=PBE
+Enter Confinement: r_0 and integer power, power=0 -> off
+l=  0
+l=  1
+Enter number of occupied shells for each angular momentum
+l=  0
+l=  1
+Enter number of exponents and polynomial coefficients for each angular momentum
+l=  0
+l=  1
+Do you want to generate the exponents ? .true./.false.
+Enter   4exponents for l=  0 one per line
+Enter   4exponents for l=  1 one per line
+Print Eigenvectors ? .true./.false.
+ Use Broyden mixer ? .true./.false. and mixing parameter <1
+Enter the occupation numbers for each angular momentum and shell, up and down in one row
+ 
+UP Electrons DOWN Electrons
+l=   0 and shell   1
+l=   0 and shell   2
+l=   1 and shell   1
+Quantum numbers of wavefunctions to be written:
+l= 0: from to
+l= 1: from to
+ 
+--------------
+INPUT SUMMARY 
+--------------
+NON-RELATIVISTIC CALCULATION
+ 
+Nuclear Charge:   8
+PBE
+Max. angular momentum: 1
+Number of points for numerical radial integration:   500
+ 
+Occupied Shells for l=0:  2
+Occupied Shells for l=1:  1
+ 
+Number of Polynomial Coeff. for l=0:  3
+Number of Polynomial Coeff. for l=1:  3
+ 
+Exponents for l=0
+  0.50000000
+  1.26000000
+  3.17000000
+  8.00000000
+Exponents for l=1
+  0.50000000
+  1.26000000
+  3.17000000
+  8.00000000
+ 
+Occupation Numbers UP/DWN
+Angular Momentum 0 Shell  1:   1.00000000  1.00000000
+Angular Momentum 0 Shell  2:   1.00000000  1.00000000
+Angular Momentum 1 Shell  1:   2.00000000  2.00000000
+ 
+l=   0, r0=   0.9000000E+01 power=   2
+l=   1, r0=   0.9000000E+01 power=   2
+ 
+There are at maximum  2 occ. shells for one l
+There are at maximum  3 coefficients for one exponent
+There are at maximum  4 exponents
+ 
+------------------
+END INPUT SUMMARY 
+------------------
+ 
+Size of one Supervectors is 288 double precision elements
+Size of one Supermatrix is 82944 double precision elements
+MAXIMUM SIZE OF EIGENPROBLEM IS  12
+ 
+LDA/PBE ROUTINES: LIBXC IMPLEMENTATION
+
+Startup: Building Supervectors
+Smallest eigenvalue of overlap for l=   0 :   0.20552771E-06
+Smallest eigenvalue of overlap for l=   1 :   0.10649036E-05
+  
+Startup: Building Supermatrices
+Startup: Building Initial Fock Matrix
+ 
+Iteration :    1
+TOTAL ENERGY        -19.600011 Hartree
+CHANGE in potential matrix  0.569337605108E+01
+  
+Iteration :    2
+TOTAL ENERGY        -27.899706 Hartree
+CHANGE in potential matrix  0.356330806852E+02
+  
+Iteration :    3
+TOTAL ENERGY        -71.551049 Hartree
+CHANGE in potential matrix  0.571262554731E+01
+  
+Iteration :    4
+TOTAL ENERGY        -69.779965 Hartree
+CHANGE in potential matrix  0.107652929512E+02
+  
+Iteration :    5
+TOTAL ENERGY        -74.198113 Hartree
+CHANGE in potential matrix  0.109366837293E+01
+  
+Iteration :    6
+TOTAL ENERGY        -74.765080 Hartree
+CHANGE in potential matrix  0.605088007913E+00
+  
+Iteration :    7
+TOTAL ENERGY        -74.787455 Hartree
+CHANGE in potential matrix  0.105251482405E+00
+  
+Iteration :    8
+TOTAL ENERGY        -74.801240 Hartree
+CHANGE in potential matrix  0.113885980717E+00
+  
+Iteration :    9
+TOTAL ENERGY        -74.804049 Hartree
+CHANGE in potential matrix  0.330947411219E-01
+  
+Iteration :   10
+TOTAL ENERGY        -74.804444 Hartree
+CHANGE in potential matrix  0.219974459588E-02
+  
+Iteration :   11
+TOTAL ENERGY        -74.804449 Hartree
+CHANGE in potential matrix  0.253720218770E-02
+  
+Iteration :   12
+TOTAL ENERGY        -74.804451 Hartree
+CHANGE in potential matrix  0.180841682627E-02
+  
+Iteration :   13
+TOTAL ENERGY        -74.804452 Hartree
+CHANGE in potential matrix  0.104663735803E-04
+  
+Iteration :   14
+TOTAL ENERGY        -74.804452 Hartree
+CHANGE in potential matrix  0.148839331629E-03
+  
+Iteration :   15
+TOTAL ENERGY        -74.804452 Hartree
+CHANGE in potential matrix  0.866036521074E-05
+  
+Iteration :   16
+TOTAL ENERGY        -74.804452 Hartree
+CHANGE in potential matrix  0.266914438107E-06
+  
+Iteration :   17
+TOTAL ENERGY        -74.804452 Hartree
+CHANGE in potential matrix  0.450791048934E-07
+  
+Iteration :   18
+TOTAL ENERGY        -74.804452 Hartree
+CHANGE in potential matrix  0.300512965623E-07
+  
+Iteration :   19
+TOTAL ENERGY        -74.804452 Hartree
+CHANGE in potential matrix  0.868496385920E-10
+ 
+EIGENVALUES UP/ Hartree
+l=  0
+     -18.826648      -0.821750       0.245833       0.640630       1.020947
+ 
+       1.458809       2.256359       3.085953       5.505345      14.146663
+ 
+      43.378834     223.636745
+ 
+l=  1
+      -0.270643       0.353957       0.716168       1.060574       1.560129
+ 
+       1.997776       3.346917       4.017321       7.687947      17.678679
+ 
+      45.963384     165.778495
+ 
+ 
+EIGENVALUES DWN/ Hartree
+l=  0
+     -18.826648      -0.821750       0.245833       0.640630       1.020947
+ 
+       1.458809       2.256359       3.085953       5.505345      14.146663
+ 
+      43.378834     223.636745
+ 
+ 
+l=  1
+      -0.270643       0.353957       0.716168       1.060574       1.560129
+ 
+       1.997776       3.346917       4.017321       7.687947      17.678679
+ 
+      45.963384     165.778495
+ 
+ 
+ 
+FINAL ENERGIES :                   
+-----------------------------------
+ 
+KINETIC ENERGY                  75.000045 Hartree
+NUC. ATTR. ENERGY             -178.411246 Hartree
+COULOMB ENERGY                  36.790809 Hartree
+XC ENERGY                       -8.320508 Hartree
+CONFINEMENT ENERGY               0.136449 Hartree
+  
+TOTAL ENERGY                   -74.804452 Hartree
+Remark: For HF use 0.5*XC Energy
+ 
+DFT VIRIAL              -1.997392
+ 
+Potential Matrix Elements converged to   0.868496385920E-10
+ 
+Nuc. attr. energy from potential in pot.dat:        -178.411246
+Coulomb    energy from potential in pot.dat:          36.790809
+V_xc integrals from pot.dat, Up/Dwn:          -5.343117         -5.343117
+Total number of electrons from dens.dat :           8.000000
+Changing wavefunction sign: n =  2, l =  0
+Changing wavefunction sign: n =  2, l =  0
+Changing wavefunction sign: n =  2, l =  1
+Changing wavefunction sign: n =  2, l =  1

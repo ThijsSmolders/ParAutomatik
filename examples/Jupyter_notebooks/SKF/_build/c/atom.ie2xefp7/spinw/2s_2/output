@@ -1,0 +1,208 @@
+Enter nuclear charge, maximal angular momentum (s=0), max. SCF, ZORA
+Enter XC functional, 0=HF, 1=X-Alpha, 2=PW-LDA, 3=PBE
+Enter Confinement: r_0 and integer power, power=0 -> off
+l=  0
+l=  1
+Enter number of occupied shells for each angular momentum
+l=  0
+l=  1
+Enter number of exponents and polynomial coefficients for each angular momentum
+l=  0
+l=  1
+Do you want to generate the exponents ? .true./.false.
+Enter   4exponents for l=  0 one per line
+Enter   4exponents for l=  1 one per line
+Print Eigenvectors ? .true./.false.
+ Use Broyden mixer ? .true./.false. and mixing parameter <1
+Enter the occupation numbers for each angular momentum and shell, up and down in one row
+ 
+UP Electrons DOWN Electrons
+l=   0 and shell   1
+l=   0 and shell   2
+l=   1 and shell   1
+Quantum numbers of wavefunctions to be written:
+l= 0: from to
+l= 1: from to
+ 
+--------------
+INPUT SUMMARY 
+--------------
+NON-RELATIVISTIC CALCULATION
+ 
+Nuclear Charge:   6
+PBE
+Max. angular momentum: 1
+Number of points for numerical radial integration:   500
+ 
+Occupied Shells for l=0:  2
+Occupied Shells for l=1:  1
+ 
+Number of Polynomial Coeff. for l=0:  3
+Number of Polynomial Coeff. for l=1:  3
+ 
+Exponents for l=0
+  0.50000000
+  1.14000000
+  2.62000000
+  6.00000000
+Exponents for l=1
+  0.50000000
+  1.14000000
+  2.62000000
+  6.00000000
+ 
+Occupation Numbers UP/DWN
+Angular Momentum 0 Shell  1:   1.00000000  1.00000000
+Angular Momentum 0 Shell  2:   0.98000000  1.00000000
+Angular Momentum 1 Shell  1:   1.00000000  1.00000000
+ 
+l=   0 no confinement 
+l=   1 no confinement 
+ 
+There are at maximum  2 occ. shells for one l
+There are at maximum  3 coefficients for one exponent
+There are at maximum  4 exponents
+ 
+------------------
+END INPUT SUMMARY 
+------------------
+ 
+Size of one Supervectors is 288 double precision elements
+Size of one Supermatrix is 82944 double precision elements
+MAXIMUM SIZE OF EIGENPROBLEM IS  12
+ 
+LDA/PBE ROUTINES: LIBXC IMPLEMENTATION
+
+Startup: Building Supervectors
+Smallest eigenvalue of overlap for l=   0 :   0.34865300E-07
+Smallest eigenvalue of overlap for l=   1 :   0.21334186E-06
+  
+Startup: Building Supermatrices
+Startup: Building Initial Fock Matrix
+ 
+Iteration :    1
+TOTAL ENERGY         -7.259613 Hartree
+CHANGE in potential matrix  0.326219787557E+01
+  
+Iteration :    2
+TOTAL ENERGY        -13.030430 Hartree
+CHANGE in potential matrix  0.158892869948E+02
+  
+Iteration :    3
+TOTAL ENERGY        -34.200694 Hartree
+CHANGE in potential matrix  0.315590327962E+01
+  
+Iteration :    4
+TOTAL ENERGY        -36.209558 Hartree
+CHANGE in potential matrix  0.324837435630E+01
+  
+Iteration :    5
+TOTAL ENERGY        -37.701273 Hartree
+CHANGE in potential matrix  0.264016023100E+00
+  
+Iteration :    6
+TOTAL ENERGY        -37.724294 Hartree
+CHANGE in potential matrix  0.183564572196E+00
+  
+Iteration :    7
+TOTAL ENERGY        -37.736098 Hartree
+CHANGE in potential matrix  0.187120736884E+00
+  
+Iteration :    8
+TOTAL ENERGY        -37.737742 Hartree
+CHANGE in potential matrix  0.290400476225E-01
+  
+Iteration :    9
+TOTAL ENERGY        -37.737992 Hartree
+CHANGE in potential matrix  0.121419579520E-02
+  
+Iteration :   10
+TOTAL ENERGY        -37.737993 Hartree
+CHANGE in potential matrix  0.244768939074E-02
+  
+Iteration :   11
+TOTAL ENERGY        -37.737996 Hartree
+CHANGE in potential matrix  0.248695203615E-03
+  
+Iteration :   12
+TOTAL ENERGY        -37.737996 Hartree
+CHANGE in potential matrix  0.250342374414E-03
+  
+Iteration :   13
+TOTAL ENERGY        -37.737996 Hartree
+CHANGE in potential matrix  0.886568099727E-04
+  
+Iteration :   14
+TOTAL ENERGY        -37.737996 Hartree
+CHANGE in potential matrix  0.226153978033E-05
+  
+Iteration :   15
+TOTAL ENERGY        -37.737996 Hartree
+CHANGE in potential matrix  0.378635639819E-05
+  
+Iteration :   16
+TOTAL ENERGY        -37.737996 Hartree
+CHANGE in potential matrix  0.375305003075E-06
+  
+Iteration :   17
+TOTAL ENERGY        -37.737996 Hartree
+CHANGE in potential matrix  0.305005215750E-06
+  
+Iteration :   18
+TOTAL ENERGY        -37.737996 Hartree
+CHANGE in potential matrix  0.561975355140E-08
+ 
+EIGENVALUES UP/ Hartree
+l=  0
+     -10.051532      -0.512280      -0.010348       0.026515       0.107242
+ 
+       0.293158       0.716316       1.684482       3.971065       9.940033
+ 
+      29.131789     144.307018
+ 
+l=  1
+      -0.201503       0.009445       0.037789       0.108372       0.259586
+ 
+       0.571050       1.210168       2.528116       5.344787      11.889320
+ 
+      29.800921     104.288684
+ 
+ 
+EIGENVALUES DWN/ Hartree
+l=  0
+     -10.051963      -0.513509      -0.010323       0.026517       0.107221
+ 
+       0.293065       0.716051       1.683967       3.970188       9.939442
+ 
+      29.130971     144.306200
+ 
+ 
+l=  1
+      -0.202511       0.009479       0.037818       0.108351       0.259494
+ 
+       0.570854       1.209815       2.527586       5.344052      11.888307
+ 
+      29.800615     104.287902
+ 
+ 
+ 
+FINAL ENERGIES :                   
+-----------------------------------
+ 
+KINETIC ENERGY                  37.606592 Hartree
+NUC. ATTR. ENERGY              -87.911658 Hartree
+COULOMB ENERGY                  17.635578 Hartree
+XC ENERGY                       -5.068508 Hartree
+CONFINEMENT ENERGY               0.000000 Hartree
+  
+TOTAL ENERGY                   -37.737996 Hartree
+Remark: For HF use 0.5*XC Energy
+ 
+DFT VIRIAL              -2.003494
+ 
+Potential Matrix Elements converged to   0.561975355140E-08
+ 
+Nuc. attr. energy from potential in pot.dat:         -87.911658
+Coulomb    energy from potential in pot.dat:          17.635578
+V_xc integrals from pot.dat, Up/Dwn:          -3.237593         -3.251548
+Total number of electrons from dens.dat :           5.980000

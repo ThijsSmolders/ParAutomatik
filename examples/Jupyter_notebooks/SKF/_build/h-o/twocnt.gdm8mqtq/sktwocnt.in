@@ -1,0 +1,12 @@
+hetero density_pbe
+0.400000 0.020000 5.000000e-05 -10.001000
+300 150
+1
+'wave1_1s.dat' 0
+'potentials1.dat'
+'density1.dat'
+2
+'wave2_2s.dat' 0
+'wave2_2p.dat' 1
+'potentials2.dat'
+'density2.dat'

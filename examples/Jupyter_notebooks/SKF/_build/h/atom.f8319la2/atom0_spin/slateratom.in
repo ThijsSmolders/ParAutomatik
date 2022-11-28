@@ -1,0 +1,13 @@
+1 0 120 .false. 	# znuc maxang nscc relativistic
+3	# functional: 0=HF, 1=X-Alpha, 2=PW-LDA, 3=PBE 
+1e+30 0 	# Compr. radius and power (s)
+1 	# nr. of occupied shells (s)
+3 3 	# nr. of exponents, max. power (s)
+.false. 	# automatic exponent generation
+  0.500000 	# exponent 1 (s)
+  1.000000 	# exponent 2 (s)
+  2.000000 	# exponent 3 (s)
+.false. 	# write eigenvectors
+.true. 0.1 	# broyden mixer, mixing factor
+1 0 	# occupations (1s)
+1 1 	# valence shells from to (s)

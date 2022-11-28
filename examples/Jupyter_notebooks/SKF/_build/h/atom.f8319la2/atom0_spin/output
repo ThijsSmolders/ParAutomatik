@@ -1,0 +1,579 @@
+Enter nuclear charge, maximal angular momentum (s=0), max. SCF, ZORA
+Enter XC functional, 0=HF, 1=X-Alpha, 2=PW-LDA, 3=PBE
+Enter Confinement: r_0 and integer power, power=0 -> off
+l=  0
+Enter number of occupied shells for each angular momentum
+l=  0
+Enter number of exponents and polynomial coefficients for each angular momentum
+l=  0
+Do you want to generate the exponents ? .true./.false.
+Enter   3exponents for l=  0 one per line
+Print Eigenvectors ? .true./.false.
+ Use Broyden mixer ? .true./.false. and mixing parameter <1
+Enter the occupation numbers for each angular momentum and shell, up and down in one row
+ 
+UP Electrons DOWN Electrons
+l=   0 and shell   1
+Quantum numbers of wavefunctions to be written:
+l= 0: from to
+ 
+--------------
+INPUT SUMMARY 
+--------------
+NON-RELATIVISTIC CALCULATION
+ 
+Nuclear Charge:   1
+PBE
+Max. angular momentum: 0
+Number of points for numerical radial integration:   500
+ 
+Occupied Shells for l=0:  1
+ 
+Number of Polynomial Coeff. for l=0:  3
+ 
+Exponents for l=0
+  0.50000000
+  1.00000000
+  2.00000000
+ 
+Occupation Numbers UP/DWN
+Angular Momentum 0 Shell  1:   1.00000000  0.00000000
+ 
+l=   0 no confinement 
+ 
+There are at maximum  1 occ. shells for one l
+There are at maximum  3 coefficients for one exponent
+There are at maximum  3 exponents
+ 
+------------------
+END INPUT SUMMARY 
+------------------
+ 
+Size of one Supervectors is 81 double precision elements
+Size of one Supermatrix is 6561 double precision elements
+MAXIMUM SIZE OF EIGENPROBLEM IS   9
+ 
+LDA/PBE ROUTINES: LIBXC IMPLEMENTATION
+
+Startup: Building Supervectors
+Smallest eigenvalue of overlap for l=   0 :   0.42623153E-07
+  
+Startup: Building Supermatrices
+Startup: Building Initial Fock Matrix
+ 
+Iteration :    1
+TOTAL ENERGY         -0.112502 Hartree
+CHANGE in potential matrix  0.185757121740E+00
+  
+Iteration :    2
+TOTAL ENERGY         -0.150654 Hartree
+CHANGE in potential matrix  0.154235070315E-01
+  
+Iteration :    3
+TOTAL ENERGY         -0.146418 Hartree
+CHANGE in potential matrix  0.425542922588E-01
+  
+Iteration :    4
+TOTAL ENERGY         -0.141939 Hartree
+CHANGE in potential matrix  0.480752259377E+01
+  
+Iteration :    5
+TOTAL ENERGY         -0.298289 Hartree
+CHANGE in potential matrix  0.543794942335E+00
+  
+Iteration :    6
+TOTAL ENERGY         -0.320373 Hartree
+CHANGE in potential matrix  0.103834609570E+01
+  
+Iteration :    7
+TOTAL ENERGY         -0.325503 Hartree
+CHANGE in potential matrix  0.130226999639E+02
+  
+Iteration :    8
+TOTAL ENERGY         -0.490563 Hartree
+CHANGE in potential matrix  0.224073993221E+00
+  
+Iteration :    9
+TOTAL ENERGY         -0.497722 Hartree
+CHANGE in potential matrix  0.288183794379E+01
+  
+Iteration :   10
+TOTAL ENERGY         -0.498291 Hartree
+CHANGE in potential matrix  0.212780370182E+01
+  
+Iteration :   11
+TOTAL ENERGY         -0.498522 Hartree
+CHANGE in potential matrix  0.194462493451E+02
+  
+Iteration :   12
+TOTAL ENERGY         -0.499495 Hartree
+CHANGE in potential matrix  0.824759242753E+01
+  
+Iteration :   13
+TOTAL ENERGY         -0.499651 Hartree
+CHANGE in potential matrix  0.136584013522E+01
+  
+Iteration :   14
+TOTAL ENERGY         -0.499583 Hartree
+CHANGE in potential matrix  0.278421368293E+01
+  
+Iteration :   15
+TOTAL ENERGY         -0.499253 Hartree
+CHANGE in potential matrix  0.163487289124E+01
+  
+Iteration :   16
+TOTAL ENERGY         -0.499065 Hartree
+CHANGE in potential matrix  0.173963418902E+01
+  
+Iteration :   17
+TOTAL ENERGY         -0.499294 Hartree
+CHANGE in potential matrix  0.491375836040E+01
+  
+Iteration :   18
+TOTAL ENERGY         -0.499722 Hartree
+CHANGE in potential matrix  0.294252595692E+01
+  
+Iteration :   19
+TOTAL ENERGY         -0.499853 Hartree
+CHANGE in potential matrix  0.102811722484E+01
+  
+Iteration :   20
+TOTAL ENERGY         -0.499891 Hartree
+CHANGE in potential matrix  0.113851009807E+01
+  
+Iteration :   21
+TOTAL ENERGY         -0.499935 Hartree
+CHANGE in potential matrix  0.260222701446E+01
+  
+Iteration :   22
+TOTAL ENERGY         -0.499982 Hartree
+CHANGE in potential matrix  0.113608249429E+01
+  
+Iteration :   23
+TOTAL ENERGY         -0.499989 Hartree
+CHANGE in potential matrix  0.217755560523E+00
+  
+Iteration :   24
+TOTAL ENERGY         -0.499989 Hartree
+CHANGE in potential matrix  0.413115377417E-01
+  
+Iteration :   25
+TOTAL ENERGY         -0.499989 Hartree
+CHANGE in potential matrix  0.732241651860E-01
+  
+Iteration :   26
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.597125617424E-01
+  
+Iteration :   27
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.193565359497E-01
+  
+Iteration :   28
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.375297918455E-02
+  
+Iteration :   29
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.328651338614E-02
+  
+Iteration :   30
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.129057555018E-02
+  
+Iteration :   31
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.124742878427E-01
+  
+Iteration :   32
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.109046011595E-03
+  
+Iteration :   33
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.422448508203E-03
+  
+Iteration :   34
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.177358418796E-05
+  
+Iteration :   35
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.920338074906E-05
+  
+Iteration :   36
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.511025547283E-04
+  
+Iteration :   37
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.814471292969E-04
+  
+Iteration :   38
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.572154564793E-05
+  
+Iteration :   39
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.370772004032E-05
+  
+Iteration :   40
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.543641746020E-05
+  
+Iteration :   41
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.462109925081E-05
+  
+Iteration :   42
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.494059246279E-04
+  
+Iteration :   43
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.423131498906E-05
+  
+Iteration :   44
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.380445200676E-06
+  
+Iteration :   45
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.562318881236E-06
+  
+Iteration :   46
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.435219270400E-06
+  
+Iteration :   47
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.101764922391E-04
+  
+Iteration :   48
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.212368864823E-04
+  
+Iteration :   49
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.211442085174E-05
+  
+Iteration :   50
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.380433382219E-05
+  
+Iteration :   51
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.164695493567E-03
+  
+Iteration :   52
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.314117104273E-02
+  
+Iteration :   53
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.590963647937E-01
+  
+Iteration :   54
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.111146336947E+01
+  
+Iteration :   55
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.209042548627E+02
+  
+Iteration :   56
+TOTAL ENERGY         -0.499989 Hartree
+CHANGE in potential matrix  0.393188312051E+03
+  
+Iteration :   57
+TOTAL ENERGY         -0.499904 Hartree
+CHANGE in potential matrix  0.739642334686E+04
+  
+Iteration :   58
+TOTAL ENERGY         -0.472577 Hartree
+CHANGE in potential matrix  0.139158213178E+06
+  
+Iteration :   59
+TOTAL ENERGY          0.522541 Hartree
+CHANGE in potential matrix  0.261956087155E+07
+  
+Iteration :   60
+TOTAL ENERGY         13.916578 Hartree
+CHANGE in potential matrix  0.493056044573E+08
+  
+Iteration :   61
+TOTAL ENERGY         14.299074 Hartree
+CHANGE in potential matrix  0.927985390474E+09
+  
+Iteration :   62
+TOTAL ENERGY         14.316150 Hartree
+CHANGE in potential matrix  0.174661422046E+11
+  
+Iteration :   63
+TOTAL ENERGY         14.317028 Hartree
+CHANGE in potential matrix  0.328757367912E+12
+  
+Iteration :   64
+TOTAL ENERGY         14.317050 Hartree
+CHANGE in potential matrix  0.618822677815E+13
+  
+Iteration :   65
+TOTAL ENERGY         14.317029 Hartree
+CHANGE in potential matrix  0.116484915719E+15
+  
+Iteration :   66
+TOTAL ENERGY         14.317004 Hartree
+CHANGE in potential matrix  0.219273366512E+16
+  
+Iteration :   67
+TOTAL ENERGY         14.316980 Hartree
+CHANGE in potential matrix  0.412785812463E+17
+  
+Iteration :   68
+TOTAL ENERGY         14.316954 Hartree
+CHANGE in potential matrix  0.777080316786E+18
+  
+Iteration :   69
+TOTAL ENERGY         14.316931 Hartree
+CHANGE in potential matrix  0.146291899478E+20
+  
+Iteration :   70
+TOTAL ENERGY         14.316907 Hartree
+CHANGE in potential matrix  0.154498645999E+19
+  
+Iteration :   71
+TOTAL ENERGY         14.316907 Hartree
+CHANGE in potential matrix  0.139036268260E+20
+  
+Iteration :   72
+TOTAL ENERGY         14.316907 Hartree
+CHANGE in potential matrix  0.125125759489E+16
+  
+Iteration :   73
+TOTAL ENERGY         14.317248 Hartree
+CHANGE in potential matrix  0.563046211310E+11
+  
+Iteration :   74
+TOTAL ENERGY          9.728161 Hartree
+CHANGE in potential matrix  0.168924133936E+07
+  
+Iteration :   75
+TOTAL ENERGY          9.955263 Hartree
+CHANGE in potential matrix  0.457507192275E+03
+  
+Iteration :   76
+TOTAL ENERGY          9.954753 Hartree
+CHANGE in potential matrix  0.380482902155E+04
+  
+Iteration :   77
+TOTAL ENERGY          0.632339 Hartree
+CHANGE in potential matrix  0.972424077185E+01
+  
+Iteration :   78
+TOTAL ENERGY         -0.499719 Hartree
+CHANGE in potential matrix  0.934928911052E+01
+  
+Iteration :   79
+TOTAL ENERGY          2.516221 Hartree
+CHANGE in potential matrix  0.417515230796E+01
+  
+Iteration :   80
+TOTAL ENERGY          1.768039 Hartree
+CHANGE in potential matrix  0.699974754063E+00
+  
+Iteration :   81
+TOTAL ENERGY          1.586965 Hartree
+CHANGE in potential matrix  0.669268653517E+00
+  
+Iteration :   82
+TOTAL ENERGY          1.417247 Hartree
+CHANGE in potential matrix  0.304248379989E+01
+  
+Iteration :   83
+TOTAL ENERGY         -0.497559 Hartree
+CHANGE in potential matrix  0.257783286221E+01
+  
+Iteration :   84
+TOTAL ENERGY         -0.495902 Hartree
+CHANGE in potential matrix  0.838605494977E+00
+  
+Iteration :   85
+TOTAL ENERGY         -0.495402 Hartree
+CHANGE in potential matrix  0.692890961063E+01
+  
+Iteration :   86
+TOTAL ENERGY         -0.497051 Hartree
+CHANGE in potential matrix  0.840703725024E+00
+  
+Iteration :   87
+TOTAL ENERGY         -0.496880 Hartree
+CHANGE in potential matrix  0.702411681990E+00
+  
+Iteration :   88
+TOTAL ENERGY         -0.496914 Hartree
+CHANGE in potential matrix  0.161901459377E+02
+  
+Iteration :   89
+TOTAL ENERGY         -0.498935 Hartree
+CHANGE in potential matrix  0.119605406386E+02
+  
+Iteration :   90
+TOTAL ENERGY         -0.499798 Hartree
+CHANGE in potential matrix  0.416796781384E+01
+  
+Iteration :   91
+TOTAL ENERGY         -0.499926 Hartree
+CHANGE in potential matrix  0.297971455217E+01
+  
+Iteration :   92
+TOTAL ENERGY         -0.499965 Hartree
+CHANGE in potential matrix  0.483276583607E+01
+  
+Iteration :   93
+TOTAL ENERGY         -0.499986 Hartree
+CHANGE in potential matrix  0.298466919161E+01
+  
+Iteration :   94
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.600912700902E+00
+  
+Iteration :   95
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.558089513811E-01
+  
+Iteration :   96
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.255566858144E-01
+  
+Iteration :   97
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.735723689432E-01
+  
+Iteration :   98
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.130266534448E-01
+  
+Iteration :   99
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.174601050008E-02
+  
+Iteration :  100
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.127422233820E-02
+  
+Iteration :  101
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.485483082748E-03
+  
+Iteration :  102
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.109710742542E-03
+  
+Iteration :  103
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.114583966919E-03
+  
+Iteration :  104
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.830499780875E-04
+  
+Iteration :  105
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.287102954104E-04
+  
+Iteration :  106
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.384196905401E-05
+  
+Iteration :  107
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.156316034605E-05
+  
+Iteration :  108
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.140967736684E-05
+  
+Iteration :  109
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.772704119356E-06
+  
+Iteration :  110
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.900240962665E-06
+  
+Iteration :  111
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.279888322297E-05
+  
+Iteration :  112
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.235372610291E-07
+  
+Iteration :  113
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.735450939260E-06
+  
+Iteration :  114
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.132838734856E-05
+  
+Iteration :  115
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.283735758444E-06
+  
+Iteration :  116
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.238611881542E-05
+  
+Iteration :  117
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.143691899268E-06
+  
+Iteration :  118
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.327989056359E-06
+  
+Iteration :  119
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.325553818925E-05
+  
+Iteration :  120
+TOTAL ENERGY         -0.499990 Hartree
+CHANGE in potential matrix  0.415141919063E-06
+  
+ 
+EIGENVALUES UP/ Hartree
+l=  0
+      -0.279090       0.000952       0.031834       0.109110       0.280168
+ 
+       0.669379       1.632704       4.621903      22.027267
+ 
+ 
+EIGENVALUES DWN/ Hartree
+l=  0
+       0.011756       0.053675       0.160167       0.413711       1.574878
+ 
+       8.885785      32.465534      64.578467      94.571979
+ 
+ 
+ 
+FINAL ENERGIES :                   
+-----------------------------------
+ 
+KINETIC ENERGY                   0.494809 Hartree
+NUC. ATTR. ENERGY               -0.994160 Hartree
+COULOMB ENERGY                   0.306824 Hartree
+XC ENERGY                       -0.307462 Hartree
+CONFINEMENT ENERGY               0.000000 Hartree
+  
+TOTAL ENERGY                    -0.499990 Hartree
+Remark: For HF use 0.5*XC Energy
+ 
+DFT VIRIAL              -2.010470
+ 
+Potential Matrix Elements converged to   0.415141919063E-06
+ 
+Nuc. attr. energy from potential in pot.dat:          -0.994160
+Coulomb    energy from potential in pot.dat:           0.306824
+V_xc integrals from pot.dat, Up/Dwn:          -0.393386          0.000000
+Total number of electrons from dens.dat :           1.000000

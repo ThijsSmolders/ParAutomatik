@@ -6,6 +6,60 @@
         "Train-set": "structures.json",
         "Test-set": "structures.json",
         "Twobody": {
+                "C-C": {
+                        "Rcut": 5.975511725459168,
+                        "Resolution": 0.05,
+                        "Swtype": "rep",
+                        "Rmin": 1.1325673030541243
+                },
+                "C-H": {
+                        "Rcut": 5.995872317678222,
+                        "Resolution": 0.05,
+                        "Swtype": "rep",
+                        "Rmin": 0.9147151404016003
+                },
+                "C-Li": {
+                        "Rcut": 5.993407539572126,
+                        "Resolution": 0.05,
+                        "Swtype": "rep",
+                        "Rmin": 1.9311495751603454
+                },
+                "C-O": {
+                        "Rcut": 5.999763305372972,
+                        "Resolution": 0.05,
+                        "Swtype": "rep",
+                        "Rmin": 1.1007197696140905
+                },
+                "H-H": {
+                        "Rcut": 5.999681177604356,
+                        "Resolution": 0.05,
+                        "Swtype": "rep",
+                        "Rmin": 0.5997783035605512
+                },
+                "H-Li": {
+                        "Rcut": 5.998929074001458,
+                        "Resolution": 0.05,
+                        "Swtype": "rep",
+                        "Rmin": 2.0227586591686038
+                },
+                "H-O": {
+                        "Rcut": 5.992741652082125,
+                        "Resolution": 0.05,
+                        "Swtype": "rep",
+                        "Rmin": 0.7748585665603641
+                },
+                "Li-Li": {
+                        "Rcut": 3.6153175316837665,
+                        "Resolution": 0.05,
+                        "Swtype": "rep",
+                        "Rmin": 3.5903175316837665
+                },
+                "Li-O": {
+                        "Rcut": 5.99039041873733,
+                        "Resolution": 0.05,
+                        "Swtype": "rep",
+                        "Rmin": 1.5024799527653383
+                },
                 "O-O": {
                         "Rcut": 5.999840238423019,
                         "Resolution": 0.05,
@@ -14,9 +68,9 @@
                 }
         },
         "Onebody": [
-                "O",
-                "H",
                 "C",
-                "Li"
+                "H",
+                "Li",
+                "O"
         ]
 }

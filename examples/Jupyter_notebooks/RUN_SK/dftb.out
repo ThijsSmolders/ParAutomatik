@@ -1,0 +1,159 @@
+|===============================================================================
+|
+|  DFTB+ release 22.1
+|
+|  Copyright (C) 2006 - 2022  DFTB+ developers group
+|
+|===============================================================================
+|
+|  When publishing results obtained with DFTB+, please cite the following
+|  reference:
+|
+|  * DFTB+, a software package for efficient approximate density functional
+|    theory based atomistic simulations, J. Chem. Phys. 152, 124101 (2020).
+|    [doi: 10.1063/1.5143190]
+|
+|  You should also cite additional publications crediting the parametrization
+|  data you use. Please consult the documentation of the SK-files for the
+|  references.
+|
+|===============================================================================
+
+Reading input file 'dftb_in.hsd'
+Parser version: 11
+
+--------------------------------------------------------------------------------
+Reading SK-files:
+/Users/tjams20/Documents/repos/ParAutomatik/pgm/Jupyter_notebooks/SKF/C-C.skf
+/Users/tjams20/Documents/repos/ParAutomatik/pgm/Jupyter_notebooks/SKF/C-H.skf
+/Users/tjams20/Documents/repos/ParAutomatik/pgm/Jupyter_notebooks/SKF/C-Li.skf
+/Users/tjams20/Documents/repos/ParAutomatik/pgm/Jupyter_notebooks/SKF/C-O.skf
+/Users/tjams20/Documents/repos/ParAutomatik/pgm/Jupyter_notebooks/SKF/H-H.skf
+/Users/tjams20/Documents/repos/ParAutomatik/pgm/Jupyter_notebooks/SKF/H-Li.skf
+/Users/tjams20/Documents/repos/ParAutomatik/pgm/Jupyter_notebooks/SKF/H-O.skf
+/Users/tjams20/Documents/repos/ParAutomatik/pgm/Jupyter_notebooks/SKF/Li-Li.skf
+/Users/tjams20/Documents/repos/ParAutomatik/pgm/Jupyter_notebooks/SKF/Li-O.skf
+/Users/tjams20/Documents/repos/ParAutomatik/pgm/Jupyter_notebooks/SKF/O-O.skf
+Done.
+
+
+Processed input in HSD format written to 'dftb_pin.hsd'
+
+Starting initialization...
+--------------------------------------------------------------------------------
+WARNING!
+-> Dipole printed for extended system : value printed is not well defined
+OpenMP threads:              8
+Chosen random seed:          593220978
+Mode:                        Static calculation
+Self consistent charges:     Yes
+SCC-tolerance:                 0.100000E-05
+Max. scc iterations:                    150
+Shell resolved Hubbard:      Yes
+Spin polarisation:           No
+Nr. of up electrons:            21.000000
+Nr. of down electrons:          21.000000
+Periodic boundaries:         Yes
+Electronic solver:           Relatively robust
+Mixer:                       Anderson mixer
+Mixing parameter:                  0.030000
+Maximal SCC-cycles:                     150
+Nr. of chrg. vectors to mix:              4
+Electronic temperature:              0.158341E-02 H      0.430867E-01 eV
+Initial charges:             Set automatically (system chrg:   0.000E+00)
+Included shells:             C:  s, p
+                             H:  s
+                            Li:  s
+                             O:  s, p
+K-points and weights:           1:  0.000000  0.000000  0.000000     1.000000
+
+K-points in absolute space:     1:  0.000000  0.000000  0.000000
+
+Extra options:
+                             Mulliken analysis
+                             Force calculation
+Force type                   original
+
+--------------------------------------------------------------------------------
+
+***  Geometry step: 0
+
+ iSCC Total electronic   Diff electronic      SCC error    
+    1    0.00000000E+00    0.00000000E+00    0.12576863E+01
+    2   -0.20836293E+02   -0.20836293E+02    0.12418620E+01
+    3   -0.20837896E+02   -0.16021801E-02    0.30015664E+00
+    4   -0.20887476E+02   -0.49580204E-01    0.27691304E+00
+    5   -0.20892058E+02   -0.45821175E-02    0.23907166E+00
+    6   -0.20891358E+02    0.69969211E-03    0.68480972E-01
+    7   -0.20898456E+02   -0.70980309E-02    0.50091960E-01
+    8   -0.20898839E+02   -0.38281934E-03    0.14931232E-01
+    9   -0.20899134E+02   -0.29499943E-03    0.84554120E-02
+   10   -0.20899156E+02   -0.22123839E-04    0.64324768E-02
+   11   -0.20899163E+02   -0.67470688E-05    0.54690916E-02
+   12   -0.20899167E+02   -0.37773156E-05    0.41398050E-02
+   13   -0.20899169E+02   -0.19914208E-05    0.37727901E-02
+   14   -0.20899169E+02   -0.14283846E-06    0.19356348E-02
+   15   -0.20899170E+02   -0.12220420E-05    0.17746502E-02
+   16   -0.20899170E+02   -0.24025233E-07    0.20507034E-02
+   17   -0.20899170E+02   -0.20458028E-07    0.21065835E-02
+   18   -0.20899170E+02    0.62721767E-07    0.19918638E-02
+   19   -0.20899170E+02    0.42886704E-07    0.11577540E-02
+   20   -0.20899170E+02   -0.21592807E-06    0.11446861E-02
+>> Charges saved for restart in charges.bin
+   21   -0.20899170E+02   -0.17225204E-07    0.53300603E-03
+   22   -0.20899170E+02   -0.62735868E-07    0.48261571E-03
+   23   -0.20899170E+02   -0.22214053E-08    0.36645937E-03
+   24   -0.20899170E+02   -0.13303882E-07    0.33340664E-03
+   25   -0.20899170E+02   -0.20593557E-07    0.30627124E-03
+   26   -0.20899170E+02   -0.16462316E-08    0.18698213E-03
+   27   -0.20899170E+02    0.46082604E-09    0.16852221E-03
+   28   -0.20899170E+02   -0.54793503E-10    0.10692252E-03
+   29   -0.20899170E+02   -0.22404301E-08    0.12323185E-03
+   30   -0.20899170E+02   -0.12754242E-09    0.15604259E-03
+   31   -0.20899170E+02    0.55837646E-09    0.10341082E-03
+   32   -0.20899170E+02   -0.76670759E-09    0.10524937E-03
+   33   -0.20899170E+02   -0.20721558E-09    0.55244302E-04
+   34   -0.20899170E+02   -0.86698293E-09    0.52875394E-04
+   35   -0.20899170E+02    0.11841195E-10    0.36488734E-04
+   36   -0.20899170E+02    0.10070522E-09    0.36509605E-04
+   37   -0.20899170E+02   -0.21472246E-09    0.34838180E-04
+   38   -0.20899170E+02   -0.48473225E-10    0.21827733E-04
+   39   -0.20899170E+02   -0.35846881E-11    0.19903395E-04
+   40   -0.20899170E+02    0.15312196E-11    0.14106617E-04
+>> Charges saved for restart in charges.bin
+   41   -0.20899170E+02   -0.12377654E-10    0.12861322E-04
+   42   -0.20899170E+02   -0.17720936E-10    0.11039025E-04
+   43   -0.20899170E+02   -0.97166719E-11    0.10334511E-04
+   44   -0.20899170E+02   -0.15454305E-11    0.10639447E-04
+   45   -0.20899170E+02   -0.24371616E-11    0.70736347E-05
+   46   -0.20899170E+02   -0.14228618E-10    0.68010446E-05
+   47   -0.20899170E+02   -0.66435746E-12    0.62772612E-05
+   48   -0.20899170E+02    0.58264504E-12    0.49621759E-05
+   49   -0.20899170E+02   -0.85975671E-12    0.47647868E-05
+   50   -0.20899170E+02   -0.36592951E-12    0.30846763E-05
+   51   -0.20899170E+02   -0.51514348E-12    0.28895959E-05
+   52   -0.20899170E+02    0.71054274E-13    0.18933213E-05
+   53   -0.20899170E+02    0.36237680E-12    0.20270600E-05
+   54   -0.20899170E+02   -0.46540549E-12    0.19633334E-05
+   55   -0.20899170E+02   -0.17408297E-12    0.12238800E-05
+   56   -0.20899170E+02   -0.20605739E-12    0.11856161E-05
+   57   -0.20899170E+02   -0.31974423E-13    0.94562822E-06
+>> Charges saved for restart in charges.bin
+
+Total Energy:                      -20.8991704050 H         -568.6954 eV
+Extrapolated to 0K:                -20.8991704050 H         -568.6954 eV
+Total Mermin free energy:          -20.8991704050 H         -568.6954 eV
+Force related energy:              -20.8991704050 H         -568.6954 eV
+
+Volume:                              0.350913E+05 au^3   0.520000E+04 A^3
+Pressure:                           -0.344611E-04 au    -0.101388E+10 Pa
+
+--------------------------------------------------------------------------------
+DFTB+ running times                          cpu [s]             wall clock [s]
+--------------------------------------------------------------------------------
+SCC                                    +       0.81 ( 96.9%)       0.16 ( 95.2%)
+Post-SCC processing                    +       0.02 (  2.1%)       0.00 (  1.8%)
+--------------------------------------------------------------------------------
+Missing                                +       0.01 (  1.0%)       0.01 (  3.0%)
+Total                                  =       0.84 (100.0%)       0.17 (100.0%)
+--------------------------------------------------------------------------------
