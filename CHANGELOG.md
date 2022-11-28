@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.5 (2022-11-28)
+### Documentation
+* Update examples ([`981ba4d`](https://github.com/ThijsSmolders/ParAutomatik/commit/981ba4d817847b45a50ecec651135d3cfdb367f7))
+
 ## v0.1.4 (2022-11-22)
 ### Documentation
 * **README:** Added fortnet to prereqs ([`9391963`](https://github.com/ThijsSmolders/ParAutomatik/commit/93919638152eeafbe54cec4cc8cd38c106e5e012))
