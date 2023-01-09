@@ -2,6 +2,9 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.6 (2023-01-09)
+
+
 ## v0.1.5 (2022-11-28)
 ### Documentation
 * Update examples ([`981ba4d`](https://github.com/ThijsSmolders/ParAutomatik/commit/981ba4d817847b45a50ecec651135d3cfdb367f7))
