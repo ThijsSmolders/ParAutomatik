@@ -10,12 +10,12 @@
 
 
 import sys
-from ccs.common.exceptions import ScriptError
-import ccs.scripts.ccs_build_db as ccs_build_db
+from parautomatik.common.exceptions import ScriptError
+import parautomatik.scripts.build_db as build_db
 
 
 try:
-    ccs_build_db.main()
+    build_db.main()
 except ScriptError as exc:
     sys.stderr.write("ScriptError: " + str(exc) + "\n")
     sys.exit(1)

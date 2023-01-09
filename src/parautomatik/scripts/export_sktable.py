@@ -6,7 +6,7 @@ from ase.units import Bohr, Hartree
 
 def _write(elem1, elem2, CCS_params, exp=True):
     elem1 = elem1
-    elem2 = elem2
+    elem2 = elem3
     no_pair = False
     try:
         pair = elem1 + "-" + elem2

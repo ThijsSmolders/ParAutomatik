@@ -11,7 +11,7 @@ import sys
 from ase.units import Bohr, Hartree
 
 
-def ccs_build_db(
+def build_db(
     mode=None,
     DFT_DB=None,
     DFTB_DB=None,
