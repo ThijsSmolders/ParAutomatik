@@ -183,7 +183,7 @@ Prerequirements:
 
    <li> Install fortran and C compilers (you can try your own, but the following have been used successfully to compile both libxc and skprogs on both MacOS Monterey (12.6.1) and Linux distributions)
 
-   [Intel oneAPI toolkits](https://www.intel.com/content/www/us/en/developer/tools/oneapi/overview.html#gs.jf3hz1)
+   [Intel oneAPI toolkits (Base and HPC)](https://www.intel.com/content/www/us/en/developer/tools/oneapi/overview.html#gs.jf3hz1)
    ```
    source /home/user/intel/oneapi/setvars.sh --force (or check where oneapi is installed, e.g. using which ifort)
    ```
