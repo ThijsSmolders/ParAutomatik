@@ -220,7 +220,7 @@ Prerequirements:
    ```
 
    ```
-   CMAKE_PREFIX_PATH=../libxc-5.2.3/_install/ FC=ifort CC=icc cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=_install -B _build
+   CMAKE_PREFIX_PATH=../libxc-5.2.3/_install/ FC=ifort CC=icx cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=_install -B _build
    ```
 
    ```
