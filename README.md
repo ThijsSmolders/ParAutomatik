@@ -200,7 +200,7 @@ Prerequirements:
    git checkout 5.2.3
    ```
    ```
-   FC=ifort CC=icc cmake -H. -B _build -DENABLE_FORTRAN=True -DCMAKE_INSTALL_PREFIX=_install
+   FC=ifort CC=icx cmake -H. -B _build -DENABLE_FORTRAN=True -DCMAKE_INSTALL_PREFIX=_install
    ```
 
    ```
