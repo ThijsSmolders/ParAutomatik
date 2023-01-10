@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.9 (2023-01-10)
+### Documentation
+* Update README ([`234a5cf`](https://github.com/ThijsSmolders/ParAutomatik/commit/234a5cf86fdd9b310a811b5086fb438ccc34ab48))
+
 ## v0.1.8 (2023-01-10)
 ### Documentation
 * Libxc install ([`e26ed62`](https://github.com/ThijsSmolders/ParAutomatik/commit/e26ed62a4fa4c09cf277bcbe184cf020dad3eacd))
