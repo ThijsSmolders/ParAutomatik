@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.7 (2023-01-10)
+### Documentation
+* Update README for intel oneAPI toolkits ([`0ccad88`](https://github.com/ThijsSmolders/ParAutomatik/commit/0ccad88dc0f9c0de85d2e4a12a54ab6302f0b0f4))
+
 ## v0.1.6 (2023-01-09)
 
 
