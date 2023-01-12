@@ -2,6 +2,9 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.11 (2023-01-12)
+
+
 ## v0.1.10 (2023-01-12)
 ### Documentation
 * Fixed broken shield in README ([`8bd75d0`](https://github.com/ThijsSmolders/ParAutomatik/commit/8bd75d011e6a36308b4070fc400dae1522bc8e0f))
