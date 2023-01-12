@@ -1,5 +1,7 @@
 # **ParAutomatik**
 
+HOSTED ON TEST-PYPI NOW BABY!
+
 [![Latest Release](https://img.shields.io/github/v/release/teoroo-cmc/parautomatik?display_name=tag&color=brightgreen&sort=semver)](https://github.com/Teoroo-CMC/ParAutomatik/releases/latest)
 [![License](https://img.shields.io/github/license/teoroo-cmc/ParAutomatik)](https://opensource.org/licenses/BSD-3-Clause)
 [![Build](https://img.shields.io/github/actions/workflow/status/teoroo-cmc/ParAutomatik/ci-cd.yml)](https://github.com/Teoroo-CMC/ParAutomatik/actions)
